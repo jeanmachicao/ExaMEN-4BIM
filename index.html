@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bnm.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="new-name">
+            <h1>Nombre</h1>
+            <input id="name" class="lyric-letra" type="text" placeholder="Nombre" />
+          </div>
+          <h1>Forma</h1>
+            <select id="forma" class="forma">
+                <select name="Cuadrado"></select>
+                <select name="Circulo"></select>
+            </select>
+            <h1>Color</h1>  
+            <input type="color">  
+            <button id="save-btn" class="save_btn">Guardar</button>
+          <div class="list-tasks">
+            <div class="title-list">
+              <h1>Lista</h1>
+            </div>
+           <ul id="lista"></ul>
+          </div>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+    <script src="js/vcb.js"></script>   
+</body>     
+</html> 
+
